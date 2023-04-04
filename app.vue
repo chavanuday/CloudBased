@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-indigo-200">
+  <div class="bg-blue-600">
     <section>
       <div
         class="flex flex-col justify-center flex-1 px-4 py-12 sm:px-6 lg:flex-none lg:px-20 xl:px-24"
@@ -8,13 +8,11 @@
           class="w-full max-w-xl mx-auto lg:w-96 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500 p-10"
         >
           <div>
-            <a href="./index.html" class="text-blue-600 text-medium"
+            <a href="./index.html" class="text-indigo-200 text-medium"
               >MRR Rathod</a
             >
 
-            <h2 class="mt-6 text-3xl font-extrabold text-neutral-600">
-              Sign in.
-            </h2>
+            <h2 class="mt-6 text-3xl font-extrabold text-white">Sign in.</h2>
           </div>
 
           <div class="mt-8">
@@ -23,7 +21,7 @@
                 <div>
                   <label
                     for="email"
-                    class="block text-sm font-medium text-neutral-600"
+                    class="block text-sm font-medium text-white"
                   >
                     Email address
                   </label>
@@ -35,7 +33,7 @@
                       autocomplete="email"
                       required=""
                       placeholder="Your Email"
-                      class="block w-full px-5 py-3 text-base placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg text-neutral-600 bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
+                      class="block w-full px-5 py-3 text-base placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg text-white bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
                     />
                   </div>
                 </div>
@@ -43,7 +41,7 @@
                 <div class="space-y-1">
                   <label
                     for="password"
-                    class="block text-sm font-medium text-neutral-600"
+                    class="block text-sm font-medium text-white"
                   >
                     Password
                   </label>
@@ -55,7 +53,7 @@
                       autocomplete="current-password"
                       required=""
                       placeholder="Your Password"
-                      class="block w-full px-5 py-3 text-base placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg text-neutral-600 bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
+                      class="block w-full px-5 py-3 text-base placeholder-gray-300 transition duration-500 ease-in-out transform border border-transparent rounded-lg text-white bg-gray-50 focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-300"
                     />
                   </div>
                 </div>
@@ -67,11 +65,11 @@
                       name="remember-me"
                       type="checkbox"
                       placeholder="Your password"
-                      class="w-4 h-4 text-blue-600 border-gray-200 rounded focus:ring-blue-500"
+                      class="w-4 h-4 text-white border-gray-200 rounded focus:ring-blue-500"
                     />
                     <label
                       for="remember-me"
-                      class="block ml-2 text-sm text-neutral-600"
+                      class="block ml-2 text-sm text-white"
                     >
                       Remember me
                     </label>
@@ -80,7 +78,7 @@
                   <div class="text-sm">
                     <a
                       href="#"
-                      class="font-medium text-blue-600 hover:text-blue-500"
+                      class="font-medium text-white hover:text-blue-200"
                     >
                       Forgot your password?
                     </a>
@@ -101,7 +99,7 @@
                   <div class="w-full border-t border-gray-300"></div>
                 </div>
                 <div class="relative flex justify-center text-sm">
-                  <span class="px-2 bg-white text-neutral-600">
+                  <span class="px-2 bg-white text-blue-600">
                     Or continue with
                   </span>
                 </div>
@@ -109,7 +107,7 @@
               <div>
                 <button
                   type="submit"
-                  class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-blue-600 transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
+                  class="w-full items-center block px-10 py-3.5 text-base font-medium text-center text-white transition duration-500 ease-in-out transform border-2 border-white shadow-md rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
                 >
                   <div class="flex items-center justify-center">
                     <svg
